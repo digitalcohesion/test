@@ -2,7 +2,7 @@
 Begin Window Window1
    BackColor       =   &cFFFFFF00
    Backdrop        =   0
-   CloseButton     =   False
+   CloseButton     =   True
    Compatibility   =   ""
    Composite       =   False
    Frame           =   0
@@ -75,3 +75,10 @@ End
 #tag WindowCode
 #tag EndWindowCode
 
+#tag Events BevelButton1
+	#tag Event
+		Sub Action()
+		  Dim I as integer
+		End Sub
+	#tag EndEvent
+#tag EndEvents
