@@ -78,7 +78,7 @@ End
 #tag Events BevelButton1
 	#tag Event
 		Sub Action()
-		  Dim I as integer
+		  Dim I as string
 		End Sub
 	#tag EndEvent
 #tag EndEvents
